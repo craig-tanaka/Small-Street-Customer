@@ -1,0 +1,19 @@
+{
+  "name": "small-street-customer",
+  "version": "1.0.0",
+  "description": "The official repo for the Small Street Customer frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanxyRogue/Small-Street-Customer.git"
+  },
+  "author": "Craig Tanaka Mudzingwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanxyRogue/Small-Street-Customer/issues"
+  },
+  "homepage": "https://github.com/TanxyRogue/Small-Street-Customer#readme"
+}
