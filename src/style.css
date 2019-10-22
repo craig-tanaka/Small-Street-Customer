@@ -1,0 +1,36 @@
+/* #region Variable Declarations Styles */
+:root{
+    --page-width-padding: 2em;
+}
+/* #endregion Variable Declarations Styles */
+
+/* #region Global Styles */
+button{
+    background-color: transparent;
+}
+body{
+    margin: 0;
+    background-image: url('./img/background.png');
+}
+/* #endregion Global Styles */
+
+/* #region navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6e2142c7;
+    color: white;
+    padding: .5em var(--page-width-padding);
+}
+.navbar__toggle{
+    background-image: url('./img/nav-drawer.png');
+    width: 3em;
+    height: 3em;
+    background-size: contain;
+    border-width: 1px;
+}
+.navbar__toggle:active{
+    transform: scale(.95);
+}
+/* #endregion navbar */
