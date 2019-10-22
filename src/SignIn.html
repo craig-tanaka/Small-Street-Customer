@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AfroStore | Sign In</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="/__/firebase/6.3.1/firebase-app.js"></script>
+    <script defer src="/__/firebase/6.3.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/6.3.1/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+    <script defer src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <script defer src="./js/signin.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+
+</head>
+
+<body style="padding: 1rem">
+    <h3 style="text-align: center;margin:2rem 0;">Welcome to AfroStore</h3>
+    <div id="firebaseui-auth-container"></div>
+    <div class="lds-hourglass">
+        <style>
+            .lds-hourglass {
+            overflow: hidden;
+            display: inline-block;
+            position: relative;
+            width: 64px;
+            height: 64px;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            margin-left: -32px;
+            margin-top: -32px;
+        }
+        .lds-hourglass:after {
+            content: " ";
+            display: block;
+            border-radius: 50%;
+            width: 0;
+            height: 0;
+            margin: 6px;
+            box-sizing: border-box;
+            border: 26px solid #fff;
+            border-color: rgb(134, 127, 127) transparent rgb(109, 106, 106) transparent;
+            animation: lds-hourglass 1.2s infinite;
+        }
+        @keyframes lds-hourglass {
+            0% {
+            transform: rotate(0);
+            animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+            }
+            50% {
+            transform: rotate(900deg);
+            animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+            }
+            100% {
+            transform: rotate(1800deg);
+            }
+        }
+        </style>
+    </div>
+</body>
+
+</html>

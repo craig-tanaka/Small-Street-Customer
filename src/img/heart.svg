@@ -1,0 +1,14 @@
+<svg class="nav-btn" class="add2cart-btn"  viewBox="0 0 24 24"  >
+                    <line x1="5" y1="20" x2="15" y2="20" stroke-width="1" stroke="var(--blacks)" />
+                    
+                    <line x1="5" y1="20" x2="2" y2="5" stroke-width="1" stroke="var(--blacks)" />
+                    <line x1="20" y1="20" x2="22" y2="5" stroke-width="1" stroke="var(--blacks)" />
+
+                    <line x1="2" y1="5" x2="22" y2="5" stroke-width="1" stroke="var(--blacks)" />
+                    
+                    <line x1="6" y1="5" x2="10" y2="1" stroke-width="1" stroke="var(--blacks)" />
+                    <line x1="18" y1="5" x2="15" y2="1" stroke-width="1" stroke="var(--blacks)" />
+
+                    <line x1="18" y1="14" x2="18" y2="24" stroke-width="2" stroke="var(--blacks)" />
+                    <line x1="13" y1="19" x2="23" y2="19" stroke-width="2" stroke="var(--blacks)" />
+                </svg>
