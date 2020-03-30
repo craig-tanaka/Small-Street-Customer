@@ -162,16 +162,7 @@ ul {
 /* #endregion Sideba */
 
 /* #region Index-Page*/
-/* #region Header-Styling */
-
-header {
-    padding: 1rem 0;
-    width: 100vw;
-    z-index: 1;
-    border-radius: 5px;
-    /* border: 1px solid black; */
-}
-
+/* #region Nav-Styling */
 nav {
     z-index: 1;
     top: 0;
@@ -242,7 +233,7 @@ nav {
     transform: scale(0.59);
 }
 
-/* #endregion Header-Styling */
+/* #endregion Nav-Styling */
 
 /* #region LandingSection-Styling */
 .landing-sec {
@@ -294,7 +285,7 @@ nav {
 /* #endregion LandingSection-Styling */
 
 /* #region MainSection-Styling */
-.main-sec>.header {
+.header {
     display: flex;
     justify-content: space-between;
     /* border: 1px solid black; */
