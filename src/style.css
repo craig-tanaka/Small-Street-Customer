@@ -175,10 +175,10 @@ nav {
     align-items: center;
 
     padding: .3rem 1rem;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    /* border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; */
     background-color: white;
-    box-shadow: 1px 0 2px 0px black;
+    /* box-shadow: 1px 0 2px 0px black; */
 }
 
 
@@ -250,7 +250,7 @@ nav {
 
     background-position: top;
 
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
 
     /* opacity: .9; */
 
@@ -291,7 +291,7 @@ nav {
     /* border: 1px solid black; */
     overflow: scroll;
     margin: 1rem;
-    padding: .5rem;
+    /* padding: .5rem; */
 
 }
 
