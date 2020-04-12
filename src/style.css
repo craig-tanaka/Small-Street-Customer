@@ -118,54 +118,6 @@ ul {
 
 /* #endregion Utilities */
 
-/* #region Sideba */
-#sidebar-overlay {
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    width: 0;
-    /* changed dynamically when navbar toggles */
-    background-color: rgba(170, 204, 243, 0.185);
-    height: 100%;
-    /* transition: width 750ms; */
-}
-
-#sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100vh;
-    background-color: var(--blacks);
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
-    transition: width 750ms;
-}
-
-#sidebar.collapsed {
-    width: 50vw;
-    transition: width 750ms;
-}
-
-#sidebar>button {
-    display: none;
-}
-
-#signin-btn {
-    padding: .3rem;
-    /* border-width: 1px; */
-    border-radius: 7px;
-    background-color: var(--grays);
-    outline: transparent;
-}
-
-/* #endregion Sideba */
 
 /* #region Index-Page*/
 /* #region Nav-Styling */
@@ -188,7 +140,6 @@ nav {
 }
 
 
-#menu-btn,
 #cart-btn,
 .nav-btn {
     width: 1.3rem;
@@ -284,7 +235,7 @@ nav {
 
     border-radius: 10px;
     border-width: 1px;
-    font-family: 'Graduate', cursive;
+    font-family: Dosis;
     outline: none;
 }
 
@@ -347,6 +298,7 @@ nav {
     width: 100%;
     text-align: center;
     font-size: 0.82rem;
+    font-family: Dosis;
 }
 
 /* #endregion MainSection-Styling */
