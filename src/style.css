@@ -358,6 +358,10 @@ h2.product-name {
     text-align: center;
 }
 
+#product-description {
+    font-family: Dosis;
+}
+
 #descript-cont {
     text-align: justify;
     font-size: 0.85rem;
