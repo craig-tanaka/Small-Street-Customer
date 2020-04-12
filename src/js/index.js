@@ -11,15 +11,6 @@ let currentProductSnapShot = []
 let cartProducts = [];
 let isSidebarCollapsed = true;
 
-
-// sidebar
-document.querySelector('#menu-btn').addEventListener('click', toggleSidebar);
-document.querySelector('#sidebar-overlay').addEventListener('click', toggleSidebar);
-document.querySelector('#signin-btn').addEventListener('click', event => {
-    window.sessionStorage.setItem('prevSignUrl', window.location.href);
-    window.open('./signin.html', '_self');
-});
-
 // Search
 searchBtn.click = event => {
     if (searchInput.value.length == 0) {
@@ -80,24 +71,6 @@ function updateProducts(productsSnapShot) {
             window.open(`./Product.html?p=${currentProductSnapShot.docs[event.currentTarget.index].id}`, "_self");
         });
     }
-}
-
-function toggleSidebar() {
-    if (isSidebarCollapsed) {
-        document.querySelector('#sidebar-overlay').style.width = '100%';
-        document.querySelector('#sidebar').style.width = '50%';
-        document.querySelectorAll('#sidebar button').forEach(el => {
-            el.style.display = 'initial';
-        });
-    } else {
-        document.querySelector('#sidebar-overlay').style.width = '0';
-        document.querySelector('#sidebar').style.width = '0';
-        document.querySelectorAll('#sidebar button').forEach(el => {
-            el.style.display = 'none';
-        });
-    }
-
-    isSidebarCollapsed = !(isSidebarCollapsed);
 }
 
 
