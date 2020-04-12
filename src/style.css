@@ -534,9 +534,9 @@ h2.product-name {
     body {
         background: url('./img/background.png');
         position: relative;
-        overflow: scroll;
-        height: 100vh;
+        min-height: 100vh;
         overflow-x: hidden;
+        overflow-y: auto;
         box-shadow: 0px 1px 5px 0px black;
         /* box-shadow: 0px -1px -2px 0px black; */
         /* border: .5px solid black; */
